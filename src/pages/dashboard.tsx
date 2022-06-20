@@ -80,7 +80,7 @@ export default function Dashboard() {
           alignItems='flex-start'
         >
           <Box
-            padding='8'
+            padding={["6", "8"]}
             background='gray.800'
             borderRadius={8}
             paddingBottom='4'
@@ -91,7 +91,12 @@ export default function Dashboard() {
             <Chart options={options} series={series} type='area' height={160} />
           </Box>
 
-          <Box padding='8' background='gray.800' borderRadius={8}>
+          <Box
+            padding={["6", "8"]}
+            background='gray.800'
+            borderRadius={8}
+            paddingBottom='4'
+          >
             <Text fontSize='large' marginBottom='4'>
               Taxa de abertura
             </Text>
