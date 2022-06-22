@@ -6,7 +6,7 @@ import { SubmitHandler, useForm } from 'react-hook-form';
 import { Input } from '../components/Form/Input';
 
 type SignInFormData = {
-  emaik: string;
+  email: string;
   password: string;
 }
 
